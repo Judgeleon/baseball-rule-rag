@@ -1,0 +1,13 @@
+body { margin: 0; background: #f5f5f5; }
+.chat-page { max-width: 900px; margin: 0 auto; }
+.chat-list { padding: 16px 0 24px; }
+.msg-row { display: flex; margin-bottom: 16px; }
+.msg-row.user { justify-content: flex-end; }
+.msg-bubble { max-width: 78%; padding: 10px 14px; border-radius: 10px; font-size: 14px; line-height: 1.7; }
+.msg-row.user .msg-bubble { background: #1677ff; color: #fff; }
+.msg-row.assistant .msg-bubble { background: #fff; border: 1px solid #e8e8e8; }
+.msg-meta { font-size: 12px; color: #999; margin-bottom: 4px; }
+.source-list { margin-top: 8px; }
+.welcome { text-align: center; padding: 60px 20px; color: #666; }
+.stream-caret::after { content: "▋"; color: #1677ff; animation: blink 1s infinite; }
+@keyframes blink { 50% { opacity: 0; } }
